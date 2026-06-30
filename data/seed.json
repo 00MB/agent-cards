@@ -24,6 +24,18 @@
       "cardIds": [
         "icrd_CbOuFqGvXoA0L"
       ]
+    },
+    {
+      "accountId": "biz_AqsBeSxjGI0eGp",
+      "name": "Flight booker agent",
+      "role": "travel",
+      "description": "It should book my commercial flights",
+      "emoji": "✈️",
+      "createdAt": "2026-06-30T00:00:00.000Z",
+      "cardId": "icrd_nz4K5p1Y8Q3cl",
+      "cardIds": [
+        "icrd_nz4K5p1Y8Q3cl"
+      ]
     }
   ],
   "transactions": []
