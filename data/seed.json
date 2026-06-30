@@ -1,4 +1,30 @@
 {
-  "agents": [],
+  "agents": [
+    {
+      "accountId": "biz_GsMx6Xf7gsvqsJ",
+      "name": "Grocery Buyer",
+      "role": "shopper",
+      "description": "Order weekly groceries, max $150/week",
+      "emoji": "🛍️",
+      "createdAt": "2026-06-29T09:05:34.191Z",
+      "cardId": "icrd_zNEOoVyH7tzVu",
+      "cardIds": [
+        "icrd_zNEOoVyH7tzVu",
+        "icrd_0l9cjFdg5IQzB"
+      ]
+    },
+    {
+      "accountId": "biz_aBadMtb0i7lXKX",
+      "name": "Snack Buyer",
+      "role": "shopper",
+      "description": "Buy snacks, max $40/week",
+      "emoji": "🛍️",
+      "createdAt": "2026-06-29T09:38:03.935Z",
+      "cardId": "icrd_CbOuFqGvXoA0L",
+      "cardIds": [
+        "icrd_CbOuFqGvXoA0L"
+      ]
+    }
+  ],
   "transactions": []
 }
