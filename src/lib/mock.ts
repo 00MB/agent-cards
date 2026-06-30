@@ -8,7 +8,7 @@ import type { Account, Card, Transfer, Deposit } from "./types";
  * each with its own virtual card.
  */
 
-export const MOCK_TREASURY_ID = "biz_bvf4adVopetggv";
+export const MOCK_TREASURY_ID = process.env.TREASURY_ACCOUNT_ID ?? "biz_demo";
 
 export const mockAccounts: Account[] = [
   {

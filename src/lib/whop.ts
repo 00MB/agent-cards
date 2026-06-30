@@ -21,9 +21,9 @@ import { mockAccounts, mockCards, mockTransfers, mockDeposit } from "./mock";
 
 const BASE = process.env.WHOP_API_BASE ?? "https://api.whop.com/api/v1";
 
-// Default "treasury" (test company). Non-secret — safe fallback so the app
-// renders even before .env.local exists.
-const DEFAULT_TREASURY_ACCOUNT_ID = "biz_bvf4adVopetggv";
+// Placeholder used only when TREASURY_ACCOUNT_ID isn't set (e.g. mock mode).
+// The real treasury id always comes from the environment.
+const DEFAULT_TREASURY_ACCOUNT_ID = "biz_demo";
 
 export function treasuryAccountId(): string {
   return process.env.TREASURY_ACCOUNT_ID ?? DEFAULT_TREASURY_ACCOUNT_ID;
